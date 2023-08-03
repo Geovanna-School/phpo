@@ -1,4 +1,6 @@
 <?php
+require("carro.php"); //chama a classe do arquivo carro.php
+require("retangulo.php");
 //nome da classe
     class Fruta{
         //nome dos atributos
@@ -35,4 +37,13 @@ $maca = new Fruta("maca_ifsp", "vermelho");
 echo "</br>".$maca->get_name();
 //$maca->set_cor("vermelho");
 echo "</br>".$maca->get_cor();
+
+$carro = new Carro("Ferrari", "Ferrari Roma", "2020");
+echo  "</br>".$carro->get_marca();
+echo  "</br>".$carro->get_modelo();
+echo  "</br>".$carro->get_ano();
+
+$retangulo_ifsp = new Retangulo(2,4);
+echo."</br>".$retangulo_ifsp->calcular_area();
+echo."</br>".$retangulo_ifsp->calcular_perimetro();
 ?>
