@@ -17,7 +17,7 @@
             $this->altura = $altura;
         }
         function get_altura(){
-            return $this->laltura;
+            return $this->altura;
         }
         function calcular_area(){
             return ($this->altura*$this->largura);
