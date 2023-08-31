@@ -1,4 +1,4 @@
-
+<style>
         body {
             margin: 0;
             padding: 0;
@@ -64,7 +64,7 @@
         .dropdown-content a {
             display: block;
             padding: 10px 15px;
-            color: #000000;
+            color: #00000;
             text-decoration: none;
         }
         
@@ -76,3 +76,6 @@
             display: block;
         }
            
+        }
+        
+    </style>

@@ -54,7 +54,9 @@
         <input type="password" id="senha" name="senha" placeholder="Digite a sua senha" required>
 
         <input type="submit" class="botao-cadastrar" name="entrar" value="Entrar" />
-
+        <?php if (isset($_GET["erro"])){ ?>
+          <label for="senha">Usuário ou senha inválidos</label>
+        <?php }?>
       </form>
     </div>
     <div class="form-container">
